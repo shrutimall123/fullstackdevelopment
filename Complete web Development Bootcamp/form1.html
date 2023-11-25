@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Forms</title>
+</head>
+
+
+<body>
+    <h1>Registration Forms</h1>
+    <table border="2" style="align-content: center;">
+        <tr>
+            <td>
+                <form>
+                    First Name: <input type="text">
+                    <br>
+                    <br>
+                    <div>
+                        Last Name: <input type="text">
+                    </div>
+                    <br>
+
+                    <div>
+                        Gender: Male<input type="radio"> FeMale<input type="radio"> Other<input type="radio">
+                    </div>
+                    <br>
+                    <div>
+                        DOB: <input type="date">
+                    </div>
+                    <br>
+                    <div>
+                        Qualification: MBA<input type="radio"> MSc<input type="radio"> Law<input type="radio"> Other<input type="radio">
+                    </div>
+                    <br>
+                    <div> Contact: <input type="text">
+                    </div>
+                    <br>
+                    <div>
+                        Email: <input type="email">
+                    </div>
+                    <br>
+                    <div>
+                        Address: <input type="text">
+                    </div>
+                    <br>
+                    <div>
+                        Select Department:
+                        <select id="Select Department " name="Deparatment">
+                <option value="MscDs">Msc Ds</option>
+                <option value="Law">Law</option>
+                <option value="Management">Management</option>
+                <option value="Other">Other</option>
+            </select> </div>
+                    <br>
+                    <div>
+                        <input type="submit" Value="Register">
+                        <input type="reset" Value="Cancel">
+                    </div>
+                    <br>
+                    <br>
+
+    </table>
+    <table border="2">
+        <tr>
+            <td>
+                </form>
+                <h2>User Login</h2>
+
+                <form action="/login " method="post ">
+                    <!-- Login Form Fields -->
+                    <label for="username ">Username:</label>
+                    <input type="text " id="username " name="username " required>
+
+                    <label for="password ">Password:</label>
+                    <input type="password " id="password " name="password " required>
+
+                    <button type="submit ">Login</button>
+                </form>
+            </td>
+        </tr>
+
+    </table>
+
+
+</body>
+
+</html>
